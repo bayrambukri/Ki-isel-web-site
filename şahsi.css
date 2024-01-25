@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+body {
+  background: #0e2c46;
+}
+.logo {
+  cursor: pointer;
+}
+.logo:hover{
+  color: #f19e1c;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  height: 65px;
+}
+.nav-list ul {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 35px;
+  list-style-type: none;
+}
+.nav-list ul li {
+  cursor: pointer;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-text {
+  text-align: center;
+  text-align: justify;
+}
+.main h1 {
+  color: #18b8ac;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.main h2 {
+  color: #fc3d6e;
+  font-weight: bolder;
+}
+.main p {
+  color: azure;
+  font-size: large;
+  font-weight: 700;
+}
+.main button {
+  padding: 10px 25px;
+  border-radius: 55px;
+  background-color: #18b8ac;
+  color: aliceblue;
+  border: none;
+}
+section {
+  margin-bottom: 175px;
+}
+.sec-header {
+  text-align: center;
+  color: aliceblue;
+  font-size: xx-large;
+  font-weight: 500;
+  margin-bottom: 35px;
+  margin-top: 55px;
+}
+.section-text {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  color: aliceblue;
+}
+.box {
+  width: 300px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.082);
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.7px);
+  -webkit-backdrop-filter: blur(2.7px);
+}
+.box1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.content {
+  align-items: center;
+}
+.icon {
+  color: white;
+  text-align: center;
+}
+.bx {
+  color: yellow;
+}
+.kapsayici-kutu {
+  background-color: #f19e1c;
+}
+.kutu {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  height: 250px;
+  gap: 25px;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 125px;
+}
+.kapsayici-kutu {
+  grid-template-columns: 10px 100px 100px 100px;
+}
+.grid {
+  display: flex;
+  justify-content: space-around;
+}
+.kapsayici-kutu2 {
+  background-color: #f93563;
+}
+.kapsayici-kutu3 {
+  background-color: #17b8ad;
+}
+.kapsayici-kutu4 {
+  background-color: #2c3640;
+}
+.metin {
+  border-radius: 8px;
+}
+.metin h3 {
+  margin-top: 25px;
+}
+.img img {
+  border-radius: 15px;
+}
+.yrm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+  margin-left: 350px;
+}
+.yorum-img img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.yrm-text {
+  color: aliceblue;
+  margin-bottom: 25px;
+  white-space: nowrap;
+}
+
+.txt {
+  color: #17b8ad;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 450px;
+  gap: 25px;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 125px;
+  /* From https://css.glass */
+  background: rgba(17, 17, 17, 0.36);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.4px);
+  -webkit-backdrop-filter: blur(5.4px);
+}
+.input img {
+  margin-left: 355px;
+}
+.button {
+  margin: auto;
+}
+.button input {
+  margin: 15px;
+  width: 300px;
+  border-radius: 15px;
+  padding: 7px;
+  background-color: #2c3640;
+  border: none;
+}
+#x {
+  padding: 55px 0;
+}
+.button button {
+  padding: 5px 125px;
+  border-radius: 15px;
+  border: none;
+  background-color: #18b8ac;
+  color: white;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: aliceblue;
+  background-color: #1f2329;
+}
+.list a {
+  text-decoration: none;
+  color: aliceblue;
+  display: block;
+}
